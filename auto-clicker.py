@@ -16,7 +16,7 @@ if __name__ == '__main__':
             counter = int(input('How many times do you want to click?'))
             for i in range(counter):
                 pyautogui.click()
-
+            brek
         elif y_or_no == 'n':
             print('Press F6 to start and F7 to stop')
             while True:
